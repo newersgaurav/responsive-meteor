@@ -800,6 +800,15 @@
     margin-top: 10px; }
 
   .lifestyle-img-1 {
-    margin-top: 20px; } }
+    margin-top: 20px; }
+
+  .row .icons-span span {
+    padding: 10px 13px; }
+
+  .celebrity-img-1 .upper-text {
+    font-size: 38px; }
+
+  .lifestyle-img-2 .upper-text {
+    font-size: 38px; } }
 
 /*# sourceMappingURL=mainStyle.css.map */
