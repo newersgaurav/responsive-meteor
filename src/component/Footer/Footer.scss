@@ -1,0 +1,129 @@
+.footer{
+    background: #090e1d;
+}
+
+.footer-nav{
+    padding: 16px 0px;
+    .navbar-nav{
+        font-size: 12px;
+        list-style-type: none;
+        .nav-link{
+            color: #8f95aa;
+            font-weight: 700;
+        }
+    }
+}
+
+.select-col{
+    padding: 20px 0px;
+    text-align: right;
+}
+
+.select-option{
+    background: transparent;
+    border: none;
+    color: #8f95aa;
+    font-weight: 700;
+    font-size: 12px;
+    &:focus{
+        outline: none;
+    }
+}
+
+.mid-section{
+    padding: 80px 0px;
+    border-top: 1px solid #1f232f;
+    border-bottom: 1px solid #1f232f;
+}
+
+.row{
+    .section-1{
+        p{
+            font-size: 14px;
+            color: #8f95aa;
+        }
+    }
+    .icons-span{
+        margin-top: 10px;
+        span{
+            padding: 12px 15px;
+            margin-right: 10px;
+            display: inline-block;
+            img{
+                height: 12px;
+                width: 13px;
+            }
+        }
+        .twitter{
+            background: #31aae2;
+        }
+        .fb{
+            background: #0b5fa6;
+        }
+        .ball{
+            background: #e11396;
+        }
+        .pLogo{
+            background: #f52450;
+        }
+        .insta{
+            background: #313131;
+        }
+    }
+}
+
+.section{
+    ul{
+        list-style-type: none;
+        li{
+            font-size: 11px;
+            color: #8f95aa;
+            margin-bottom: 7px;
+        }
+    }
+}
+
+.copyright{
+    .copyright-section{
+        text-align: right;
+        color: #8f95aa;
+        p{
+            font-size: 11px;
+            margin-bottom: 4px;
+        }
+        ul{
+            list-style-type: none;
+            li{
+                font-size: 11px;
+                margin-left: 8px;
+                display: inline-block;
+            }
+        }
+    }
+}
+
+.meteor-span{
+    color: red;
+    font-size: 16px;
+    text-decoration: underline;
+}
+.span-text{
+    color: #fff;
+    font-size: 13px;
+}
+
+.copyright{
+    padding-top: 20px;
+    .span-div{
+        padding: 20px 0px;
+    }
+}
+
+
+
+.footer-logo{
+    margin-right: 75px;
+    img{
+        height: 50px;
+    }
+}

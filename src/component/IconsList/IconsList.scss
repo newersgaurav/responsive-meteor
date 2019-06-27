@@ -1,0 +1,81 @@
+.icon-list{
+    text-align: center;
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    .social-icons{
+        margin-bottom: 5px;
+        >div{
+            margin-right: 5px;
+            padding: 20px 0px;
+        }
+
+        &:nth-child(3){
+            >div{
+                margin-right: 0px;
+            }
+        }
+        &:last-child{
+            >div{
+                margin-right: 0px;
+            }
+        }
+        .value{
+            margin: 0px;
+            margin-top: 20px;
+            font-weight: 800;
+            color: #fff;
+            font-size: 20px;
+        }
+        .typeOfValue{
+            font-size: 15px;
+            color: #fff;
+            font-weight: 600;
+            margin: 0px;
+        }
+        .image-container{
+            margin: 0 auto;
+            padding: 9px;
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+        }
+        #fb{
+            background: #4f6aab;
+        }
+        #insta{
+            background: #964ec0;
+        }
+        #googleplus{
+            background: #e05e4d;
+        }
+        #twitter{
+            background: #59b8e7;
+        }
+        #youtube{
+            background: #db352f;
+        }
+        #wiki{
+            background: #5e83ac;
+        }
+    }
+    .facebook{
+        background: #3b59a1;
+    }
+    .youtube{
+        background: #d71e17;
+    }
+    .twitter{
+        background: #46b0e4;
+    }
+    .googlePlus{
+        background: #dd4c39;
+    }
+    .instagram{
+        background: #8a3ab9;
+    }
+    .wiki{
+        background: #4c75a3;
+    }
+}
+

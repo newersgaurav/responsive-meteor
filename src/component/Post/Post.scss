@@ -1,0 +1,28 @@
+.post{
+    @include flex-display(space-between,center);
+    margin-top: 17px;
+    .post-img{
+        img{
+            width: 60px;
+            height: 55px;
+        }
+    }
+    .post-description{
+        padding-left: 20px;
+        padding-right: 25px;
+        .description{
+            margin: 0px;
+            font-size: 13px;
+            font-weight: 700;
+        }
+        #lifestyle-size{
+            font-size: 10px;
+        }
+        .post-time{
+            margin: 0px;
+            font-size: 10px;
+            color: #d3d3d3;
+            font-weight: 700;
+        }
+    }
+}

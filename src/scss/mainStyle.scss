@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import './mixins.scss';
+@import '../component/Header/header.scss';
+@import '../component/Banner/banner.scss';
+@import '../component/MainNews/MainNews.scss';
+@import '../component/IconsList/IconsList.scss';
+@import '../component/PopularPost/PopularPost.scss';
+@import '../component/Post/Post.scss'; 
+@import '../component/NewsCard/NewsCard.scss';
+@import '../component/Footer/Footer.scss';
+
+.wrapper{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.padding-0{
+    padding: 0;
+}
+
+.display-inline{
+    display: inline-block;
+}
+
+.main-body{
+    background: #f5f5f5;
+}
+
+.white-background{
+    background: #fff;
+}
+
+.some-more-news{
+    margin-top: 20px;
+}
+
+.style-hunter{
+    padding-top: 100px;
+}
+
+.life-style{
+    padding-top: 100px;
+}
+
+.celebrity{
+    padding-top: 100px;
+}
+
+.videos{
+    padding: 100px 0px;
+}
+
+.celebrity-margin{
+    margin-bottom: 20px;
+}
+
+.lifestyle-img-1{
+    width: inherit;
+    margin-bottom: 20px;
+    position: relative;
+    margin-top: 10px; 
+    .img{
+        width: inherit;
+        height: 380px;
+    }
+    .upper-text{
+        position: absolute;
+        top: 24px;
+        left: 23px;
+        color: #fff;
+        font-style: italic;
+        font-weight: 800;
+        font-size: 38px;
+    }
+    .lower-text{
+        position: absolute;
+        bottom: 15px;
+        left: 23px;
+        color: #fff;
+        font-weight: 800;
+        font-size: 14px;
+    }
+}
+
+.lifestyle-img-2{
+    width: inherit;
+    position: relative;
+    .img{
+        width: inherit;
+        height: 380px;
+    }
+    .color-insta-logo{
+        position: absolute;
+        top: 170px;
+        left: 23px;
+        width: 60px;
+        height: 60px
+    }
+    .upper-text{
+        position: absolute;
+        top: 230px;
+        left: 23px;
+        color: #fff;
+        font-style: italic;
+        font-weight: 800;
+        font-size: 47px;
+    }
+    .lower-text{
+        position: absolute;
+        bottom: 15px;
+        left: 23px;
+        color: #fff;
+        font-weight: 800;
+        font-size: 17px;
+    }
+}
+
+.celebrity-img-1{
+    width: inherit;
+    position: relative;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    img{
+        width: inherit;
+        height: 380px;
+    }
+    .upper-text{
+        position: absolute;
+        top: 230px;
+        left: 23px;
+        color: #fff;
+        font-style: italic;
+        font-weight: 800;
+        font-size: 47px;
+    }
+    .lower-text{
+        position: absolute;
+        bottom: 15px;
+        left: 23px;
+        color: #fff;
+        font-weight: 800;
+        font-size: 17px;
+    }
+}
+
+.celebrity-img-2{
+    width: inherit;
+    position: relative;
+    img{
+        width: inherit;
+        height: 380px;
+    }
+    .upper-text{
+        position: absolute;
+        top: 24px;
+        left: 23px;
+        color: #fff;
+        font-style: italic;
+        font-weight: 800;
+        font-size: 38px;
+    }
+    .lower-text{
+        position: absolute;
+        bottom: 15px;
+        left: 23px;
+        color: #fff;
+        font-weight: 800;
+        font-size: 14px;
+    }
+}
+
+.lifestyle-post{
+    margin-top: 50px;
+}
+
+.celebrity-post{
+    div:first-child{
+        margin: 0px;
+    }
+}
+
+.youtube-video{
+    width: inherit;
+}
+
+.video-img{
+    width: inherit;
+    margin-top: 15px;
+}
+
+
+@import './media.scss';

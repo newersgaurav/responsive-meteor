@@ -1,0 +1,192 @@
+.style-hunter-main-news{
+    >div{
+        padding: 0px;
+    }
+    
+    .main-news-nav{
+        @include flex-display(space-between,baseline);
+        border-bottom-width: 2px;
+        border-bottom-style: solid;
+        border-image-source: linear-gradient(to right, rgba(121,33,154,1) 30% ,rgba(19,174,233,1) 60% ,rgba(40,224,63,1)100%);
+        border-image-slice: 1;
+        margin-bottom: 24px;
+        padding-bottom: 2px;
+        ul{
+            flex-basis: 200px;
+            @include flex-display(space-between,center);
+            list-style-type: none;
+            font-size: 13px;
+            margin: 0px;
+            li:hover{
+                color: #14ca82;
+                text-transform: uppercase;
+            }
+        }
+        h2{
+            margin: 0px;
+            font-size: 22px;
+            color: rgba(121,33,154,1);
+            font-weight: 700;
+        }
+    }
+}
+
+.life-style-main-news{
+    >div{
+        padding: 0px;
+    }
+    
+    .main-news-nav{
+        @include flex-display(space-between,baseline);
+        border-bottom-width: 2px;
+        border-bottom-style: solid;
+        border-image-source: linear-gradient(to right, rgba(244,67,55,1) 30% ,rgba(214,21,229,1) 60% ,rgba(65,40,224,1)100%);
+        border-image-slice: 1;
+        margin-bottom: 24px;
+        padding-bottom: 2px;
+        ul{
+            flex-basis: 200px;
+            @include flex-display(space-between,center);
+            list-style-type: none;
+            font-size: 13px;
+            margin: 0px;
+            li:hover{
+                color: #f44336;
+                text-transform: uppercase;
+            }
+        }
+        h2{
+            margin: 0px;
+            font-size: 22px;
+            color: #f44336;
+            font-weight: 700;
+        }
+    }
+}
+
+.celebrity{
+    .main-news-nav{
+        @include flex-display(space-between,baseline);
+        border-bottom-width: 2px;
+        border-bottom-style: solid;
+        border-image-source: linear-gradient(to right, rgba(121,33,154,1) 30% ,rgba(19,174,233,1) 60% ,rgba(40,224,63,1)100%);
+        border-image-slice: 1;
+        margin-bottom: 24px;
+        padding-bottom: 2px;
+        ul{
+            flex-basis: 200px;
+            @include flex-display(space-between,center);
+            list-style-type: none;
+            font-size: 13px;
+            margin: 0px;
+            li:hover{
+                color: #14ca82;
+                text-transform: uppercase;
+            }
+        }
+        h2{
+            margin: 0px;
+            font-size: 22px;
+            color: #8a3ab9;
+            font-weight: 700;
+        }
+    }
+}
+
+.videos{
+    .main-news-nav{
+        @include flex-display(space-between,baseline);
+        border-bottom-width: 2px;
+        border-bottom-style: solid;
+        border-image-source: linear-gradient(to right, rgba(33,57,154,1) 30% ,rgba(111,20,234,1) 60% ,rgba(223,40,213,1)100%);
+        border-image-slice: 1;
+        margin-bottom: 24px;
+        padding-bottom: 2px;
+        ul{
+            flex-basis: 200px;
+            @include flex-display(space-between,center);
+            list-style-type: none;
+            font-size: 13px;
+            margin: 0px;
+            li:hover{
+                color: #26389f;
+                text-transform: uppercase;
+            }
+        }
+        h2{
+            margin: 0px;
+            font-size: 22px;
+            color: #2737a0;
+            font-weight: 700;
+        }
+    }
+}
+
+.main-news-img{
+    height: 275px;
+    width: inherit;
+    margin-bottom: 30px;
+}
+
+.tag{
+    display: inline-block;
+    background: red;
+    text-align: right;
+    padding: 2px 10px;
+    width: 100px;
+    margin-right: 10px;
+    color: white;
+    font-size: 13px;
+}
+
+.views{
+    font-size: 13px;
+}
+
+#style-hunter-main-news-content{
+    width: inherit;
+    .main-content{
+        padding: 0px 20px;
+        padding-top: 10px;
+        padding-bottom: 40px;
+        .content-heading{
+            font-size: 16px;
+            background: linear-gradient(to right, rgba(121,33,154,1) 30% ,rgba(19,174,233,1) 60% ,rgba(40,224,63,1)100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-weight: 700;
+        }
+        .time-of-post{
+            font-size: 10px;
+            color: #d3d3d3;
+            font-weight: 700;
+        }
+        .content-para{
+            font-size: 13px;
+        }
+    }
+}
+
+#life-style-main-news-content{
+    width: inherit;
+    .main-content{
+        padding: 0px 20px;
+        padding-top: 10px;
+        padding-bottom: 40px;
+        .content-heading{
+            font-size: 16px;
+            background: linear-gradient(to right, rgba(244,67,55,1) 30% ,rgba(214,21,229,1) 60% ,rgba(65,40,224,1)100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-weight: 700;
+        }
+        .time-of-post{
+            font-size: 10px;
+            color: #d3d3d3;
+            font-weight: 700;
+        }
+        .content-para{
+            font-size: 13px;
+        }
+    }
+}

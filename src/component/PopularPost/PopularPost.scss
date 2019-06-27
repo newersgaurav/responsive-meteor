@@ -1,0 +1,50 @@
+.popular-post{
+    background: #fff;
+    border-radius: 4px;
+    padding: 20px 15px;
+    margin-top: 20px;
+    .pic-container{
+        position: relative;
+        width: inherit;
+        height: 250px;
+        background-image: linear-gradient(to bottom , rgba(255,255,255,0) , rgba(2,129,212,0.65));
+        .popularPostMainPic{
+            position: relative;
+            z-index: -1;
+            width: inherit;
+            height: inherit;
+        }
+        .img-text{
+            position: absolute;
+            top: 132px;
+            left: 16px;
+            .name{
+                color: #fff;
+                padding: 2px 5px;
+                background: #3b59a1;
+                font-size: 12px;
+            }
+            .view{
+                color: #fff;
+                font-weight: 700;
+                font-size: 12px;
+                margin-left: 20px;
+            }
+            p{
+                font-size: 13px;
+                font-weight: 700;
+                color: #fff;
+            }
+            .time{
+                font-size: 10px;
+                font-weight: 700;
+                color: #fff;
+            }
+        }
+    }
+    
+    .popular-post-heading{
+        font-size: 16px;
+        font-weight: 700;
+    }
+}

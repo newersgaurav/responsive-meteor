@@ -1,0 +1,44 @@
+.news-card-content{
+    width: inherit;
+    margin-bottom: 20px;
+}
+
+.main-img{
+    height: 176px;
+    width: inherit;
+    margin-bottom: 30px;
+}
+
+.news-card-tag{
+    display: inline-block;
+    background: red;
+    text-align: right;
+    padding: 2px 10px;
+    width: 100px;
+    margin-right: 10px;
+    color: white;
+    font-size: 13px;
+}
+
+.news-card-views{
+    font-size: 13px;
+}
+
+.card-main-content{
+    padding: 0px 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    .content-heading{
+        font-size: 16px;
+        color: #000;
+        font-weight: 700;
+    }
+    .time-of-post{
+        font-size: 10px;
+        color: #d3d3d3;
+        font-weight: 700;
+    }
+    .content-para{
+        font-size: 13px;
+    }
+}
